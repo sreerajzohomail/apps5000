@@ -35,7 +35,7 @@ resource "azurerm_managed_disk" "datadisk" {
   depends_on = [ azurerm_linux_virtual_machine.appvm ]
 }
 
-
+/*
 resource "azurerm_virtual_machine_data_disk_attachment" "datadisk_attachment" {
   count = var.virtual_machine_count
   managed_disk_id    = azurerm_managed_disk.datadisk[count.index].id
@@ -43,3 +43,4 @@ resource "azurerm_virtual_machine_data_disk_attachment" "datadisk_attachment" {
   lun                = "0"
   caching            = "ReadWrite"
 }
+*/

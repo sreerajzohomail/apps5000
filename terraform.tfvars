@@ -1,5 +1,5 @@
 resource_group_name="dev-grp"
-location = "North Europe"
+location = "East US"
 vnet_name="dev-network"
 vnet_address_prefix="10.0.0.0/16"
 vnet_subnet_count=1
